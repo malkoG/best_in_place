@@ -1,5 +1,6 @@
 require 'rails/railtie'
 require 'action_view/base'
+require 'action_view/lookup_context'
 
 module BestInPlace
   class Railtie < ::Rails::Railtie #:nodoc:
